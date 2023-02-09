@@ -1,0 +1,57 @@
+
+.blog {
+
+
+   // .blog__container
+
+   &__container {
+
+   }
+
+   // .blog__title
+
+   &__title {
+
+   }
+
+   // .blog__list
+
+   &__list {
+
+   }
+
+   // .blog__item
+
+   &__item {
+
+   }
+   &__border {
+      border: 1px solid #e0e0e0;
+      max-width: 680px;
+      margin: 20px 0px;
+   }
+
+   // .blog__item-title
+
+   &__item-title {
+      font-size: 30px;
+   }
+
+   // .blog__item-text
+
+   &__item-text {
+      max-width: 680px;
+      padding: 15px 0px 0px 0px;
+
+   }
+   span {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 29px;
+      color: #21243d;
+   }
+   .blog__vector {
+      color: #8695a4;
+      padding: 0px 20px 0px 0px;
+   }
+}

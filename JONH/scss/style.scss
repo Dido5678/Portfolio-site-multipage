@@ -1,0 +1,24 @@
+
+@import "_null";
+@import "_icons";
+@import "_fonts";
+@import "_repeat-class";
+@import "_header";
+@import "_main";
+@import "main-sections/first";
+@import "main-sections/recent-posts";
+@import "main-sections/featured";
+@import "_blog";
+@import "_work";
+@import "_workdetail";
+@import "_footer";
+
+
+.wrapper {
+   max-Width: 1150px;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+   margin:0px auto;
+   font-family: arial;
+}

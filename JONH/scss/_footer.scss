@@ -1,0 +1,33 @@
+.footer {
+   padding:80px 0px 60px 0px;
+   // .footer__container
+
+   &__container {
+      text-align: center;
+      max-width: 1150px;
+      @media(max-width:991.98px){
+         max-width: 500px;
+      }
+      @media(max-width:767.98px){
+         max-width: 400px;
+      }
+
+   }
+
+   // .footer__list
+
+   &__list {
+   }
+
+   // .footer__icons
+
+   &__icons {
+      margin:0px 5px;
+   }
+
+   // .footer__copyright
+
+   &__copyright {
+      padding:30px 0px 0px 0px;
+   }
+}
